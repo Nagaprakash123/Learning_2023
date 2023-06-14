@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    int a = 5, b = 10, big;
+    big = (a > b) ? a : b;
+    printf("biggest number between %d and %d is %d. ", a, b, big);
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,biggest;
+
+   printf("Enter two number\n");
+   scanf("%d %d",&a,&b);
+   if(a>b)
+      biggest = a;
+   else
+      biggest = b;
+   printf("biggest among 2 Number is : %d",biggest);
+}
